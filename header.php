@@ -48,10 +48,7 @@
 
         ?>
         </ol>
-        <form action="#">
-          <input type="text" name="s" id="s" value="" />
-          <button type="submit">Search</button>
-        </form>
+        <?php echo get_search_form(); ?>
       </div>
     </div>
   </div>

@@ -5,7 +5,13 @@
     <!-- BEGIN content -->
     <div id="content">
       <div class="buffer">
-
+      <?php 
+      
+        if(!have_posts()){
+          echo "<h3>No Post Founded</h3>";
+        }
+      
+      ?>
         <!-- begin post -->
         <?php while (have_posts()):the_post() ?>
 
